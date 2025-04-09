@@ -1,0 +1,45 @@
+/*CSS*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    color: white;
+    background-color: rgb(113, 131, 135);
+    padding: 8px;
+    text-align: center;
+}
+
+header {
+    background-image:  linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../img/fundo.jpg');
+    background-size: cover;
+    background-attachment: fixed;  
+    text-align: center;
+}
+
+.picture {
+    border-radius: 100px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.icones a + a {
+    margin-left: 2%;
+}
+
+.info {
+    padding: 16px;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    padding: 16px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    padding: 16px;
+}
