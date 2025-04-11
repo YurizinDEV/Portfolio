@@ -36,7 +36,15 @@ header {
 main {
     background-color: white;
     padding: 16px;
+    max-width: 60%;
+    margin-left: 20%;
 }
+
+main p {
+    margin-bottom: 8%;
+}
+
+
 
 footer {
     color: white;
