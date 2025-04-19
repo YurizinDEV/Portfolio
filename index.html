@@ -1,37 +1,83 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-<!-- <link rel="icon" href="assets/img/favicon.png" type="image/png"> -->
-</head>
-<body>
-    <header>
-        <nav class="menu">Início Formação Projetos</nav>
-        <div class="info">
-            <img src="assets/img/yuri.jpg" alt="Yuri Ribeiro Zetoles" width="100px" height="100px" class="picture">
-            <h1>Yuri Ribeiro Zetoles</h1>
-        </div>
-        <div class="icones">
-    <a href="https://github.com/YurizinDEV" target="_blank">
-        <img src="assets/img/github.PNG" alt="github"  width="30px" height="30px" >
-    </a>
-    <a href="https://www.linkedin.com/in/yuri-ribeiro-zetoles-270261308/" target="_blank">
-        <img src="assets/img/linkedin.PNG" alt="linkedin"  width="30px" height="30px" >
-    </a>
-        </div>
-    </div>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio | Yuri Ribeiro Zetoles</title>
+
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link rel="stylesheet" href="assets/css/nav.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+        </ul>
+    </nav>
+
+    <header id="inicio" class="header">
+        <div class="header__overlay"></div>
+        <img src="assets/img/yuri.jpg" alt="Yuri Ribeiro Zetoles" class="header__avatar" />
+        <h1 class="header__name">Yuri Ribeiro Zetoles</h1>
+        <div class="header__social">
+            <a href="https://github.com/YurizinDEV" target="_blank" aria-label="GitHub">
+                <img src="assets/img/github.PNG" alt="GitHub" />
+            </a>
+            <a href="https://www.linkedin.com/in/yuri-ribeiro-zetoles-270261308/" target="_blank" aria-label="LinkedIn">
+                <img src="assets/img/linkedin.PNG" alt="LinkedIn" />
+            </a>
+        </div>
     </header>
+
+    <!-- Conteúdo principal -->
     <main>
-        <div class="experience">experience</div>
-        <div class="education">education</div>
-        <div class="certifications">certifications</div>
+        <section id="formacao" class="main__section">
+            <h2 class="main__title">Formação</h2>
+            <p class="main__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, excepturi est? Cum ex placeat
+                doloribus, corrupti quia officiis cumque amet? Eius modi tempore perferendis sapiente nam in velit
+                mollitia voluptate.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum modi harum dolores porro suscipit? Vel
+                aliquid mollitia culpa minima sit ducimus sint fugit doloremque, non totam tempore, consectetur ipsum
+                odio!
+            </p>
+        </section>
+
+        <section id="projetos" class="main__section main__section--alt">
+            <h2 class="main__title">Projetos</h2>
+            <p class="main__text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero esse, odio est ipsam quibusdam animi corrupti atque perspiciatis reprehenderit minus quidem hic, placeat provident exercitationem blanditiis harum recusandae? Similique, totam!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, sapiente, sequi odit tempora eius, placeat perspiciatis maxime reiciendis omnis similique non ab atque velit facilis. Atque incidunt eos aspernatur ratione.
+            </p>
+        </section>
+
+        <section id="galeria" class="main__section">
+            <h2 class="main__title">Galeria de Fotos</h2>
+            <div class="gallery">
+                <img src="assets/img/prjt_visita.png" alt="Descrição da foto 1" class="gallery__image" />
+                <img src="assets/img/prjt_musica.png" alt="Descrição da foto 2" class="gallery__image" />
+                <img src="assets/img/prjt_clinica.png" alt="Descrição da foto 3" class="gallery__image" />
+                <img src="assets/img/prjt_visita.png" alt="Descrição da foto 4" class="gallery__image" />
+            </div>
+        </section>
+
     </main>
-    <footer>
-        footer
+
+    <footer class="footer">
+        <p>© 2025 Yuri Ribeiro Zetoles — Todos os direitos reservados</p>
     </footer>
+
 </body>
+
 </html>

@@ -1,0 +1,19 @@
+html, body {  
+    margin: 0;  
+    padding: 0;  
+    width: 100%;  
+    box-sizing: border-box;  
+    font-family: var(--font-family);
+}    
+
+:root {
+    --primary: #3b82f6;
+    --background: #f9fafb;
+    --text-color: #111827;
+    --overlay-color: rgba(17, 24, 39, 0.6);
+
+    --font-family: "Arial", sans-serif;
+    --font-size-large: 2rem;
+    --font-size-medium: 1.25rem;
+    --font-size-small: 1.125rem;
+}
