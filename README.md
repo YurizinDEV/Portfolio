@@ -12,7 +12,7 @@
 | Open Source Projects Vite | () | (https://github.com/YurizinDEV/projetos-open-source.git) |
 | Formulário de Cadastro Vite | () | (https://github.com/YurizinDEV/formulario-de-cadastro.git) |
 | Cat or Dog Vite | () | (https://github.com/YurizinDEV/cat-or-dog_front.git) |
-| Consulta CEP Vite | () | (https://github.com/YurizinDEV/consulta-cep.git) |
+| Consulta CEP Vite | (https://yurizindev.github.io/consulta-cep/) | (https://github.com/YurizinDEV/consulta-cep.git) |
 | LinkTree | () | (https://github.com/YurizinDEV/links.git) |
 | Desafio | () | () |
 
