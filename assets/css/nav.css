@@ -2,7 +2,8 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background: var(--background);
+    background: var(--text-color);
+    color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 }
@@ -21,8 +22,9 @@
 
 .nav a {
     font-size: var(--font-size-small);
-    color: var(--text-color);
+    color: white;
     transition: color 0.2s;
+    text-decoration: none;
 }
 
 .nav a:hover {
